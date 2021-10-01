@@ -11,9 +11,6 @@ fields:
     name: variant
     label: Arrangement
     controlType: thumbnails
-    colors:
-      - label: color-1
-
     options:
       - label: CTA with buttons at the bottom
         value: variant-a
@@ -53,4 +50,3 @@ fields:
     label: Background image
     models:
       - ImageBlock
-  
