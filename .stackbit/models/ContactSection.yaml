@@ -47,4 +47,4 @@ fields:
     - type: ImageBlock
         url: /images/hero.png
         altText: Contact section image
-        caption: 
+        caption: ''
