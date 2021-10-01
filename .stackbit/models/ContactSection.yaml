@@ -43,8 +43,4 @@ fields:
     models:
       - ImageBlock
       - VideoBlock
-    default: 
-    - type: ImageBlock
-        url: /images/hero.png
-        altText: Contact section image
-        caption: ''
+   

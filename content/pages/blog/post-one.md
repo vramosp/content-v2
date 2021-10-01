@@ -1,5 +1,5 @@
 ---
-title: Post Title One
+title: Post Title 1
 layout: PostLayout
 date: '2021-06-28'
 excerpt: |-
@@ -7,7 +7,7 @@ excerpt: |-
 thumbImage:
   type: ImageBlock
   url: "/images/post-1.jpeg"
-  altText: "Post Image"
+  altText: "Post image 1"
 bottomSections:
   - type: CtaSection
     variant: variant-b
@@ -21,7 +21,7 @@ bottomSections:
     actions:
       - type: Button
         label: Get Started
-        url: "https://www.stackbit.com/"
+        url: "/"
         style: primary
 ---
 

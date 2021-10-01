@@ -7,7 +7,7 @@ excerpt: |-
 thumbImage:
   type: ImageBlock
   url: "/images/post-2.jpeg"
-  altText: "Post Image"
+  altText: "Post image 2"
 bottomSections:
   - type: CtaSection
     variant: variant-b
@@ -21,7 +21,7 @@ bottomSections:
     actions:
       - type: Button
         label: Get Started
-        url: "https://www.stackbit.com/"
+        url: "/"
         style: primary
 ---
 
