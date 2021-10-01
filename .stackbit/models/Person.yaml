@@ -27,8 +27,8 @@ fields:
     models: [ImageBlock]
     default:
         - type: ImageBlock
-            url: /images/hilary-ouse.jpg
-            altText: Head Fisherman & Finance
-            caption: ''
+          url: /images/hilary-ouse.jpg
+          altText: Head Fisherman & Finance
+          caption: ''
   - type: string
     name: elementId
