@@ -25,5 +25,8 @@ fields:
     name: image
     label: Image
     models: [ImageBlock]
+    default:
+      url: /images/hilary-ouse.jpg
+      altText: Head Fisherman & Finance
   - type: string
     name: elementId

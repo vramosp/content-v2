@@ -80,8 +80,5 @@ default:
   text: Fill out the form below and we will get in touch within 1 business day.
   bottomGap: none
   topGap: none
-  feature:
-    - type: ImageBlock
-      url: /images/contact.png
 
    
