@@ -1,7 +1,7 @@
 type: object
 name: CtaSection
 label: CTA section
-variantField: variant
+variantField: variant  
 extends:
   - Section
 groups:
@@ -50,3 +50,4 @@ fields:
     label: Background image
     models:
       - ImageBlock
+
