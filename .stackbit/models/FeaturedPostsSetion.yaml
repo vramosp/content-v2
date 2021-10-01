@@ -18,7 +18,7 @@ fields:
       - label: Two columns, post thumbnail on the left
         value: variant-b
         thumbnail: './images/FeaturedPostsSection/Two Cols, Post Content to the Right of the Image.png'
-    default: variant-a
+    default: variant-b
   - type: model
     name: badge
     label: Badge
@@ -53,4 +53,7 @@ fields:
       models:
         - PostLayout
       default:
-        - type: post
+        - type: posts
+          - content/pages/blog/post-three.md
+          - content/pages/blog/post-two.md
+          - content/pages/blog/post-one.md
