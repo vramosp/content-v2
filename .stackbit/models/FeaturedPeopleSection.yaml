@@ -50,8 +50,8 @@ fields:
       type: reference
       models:
         - Person
-      default:
-        - content/data/team/desmond-eagle.json
-        - content/data/team/dianne-ameter.json
-        - content/data/team/hilary-ouse.json
+    default:
+      - content/data/team/desmond-eagle.json
+      - content/data/team/dianne-ameter.json
+      - content/data/team/hilary-ouse.json
      
