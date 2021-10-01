@@ -53,6 +53,7 @@ default:
   bottomGap: none
   topGap: none
   form:
+    type: FormBlock
     idAttr: contact-form
     destination: ''
     action: /.netlify/functions/submission_created
@@ -80,10 +81,10 @@ default:
         label: Sign me up to receive updates
         width: full
     submitLabel: Send Message
-    feature:
-      - type: ImageBlock
-        url: /images/contact.png
-        altText: Contact form image
+  feature:
+    type: ImageBlock
+    url: /images/contact.png
+    altText: Contact form image
 
 
    
