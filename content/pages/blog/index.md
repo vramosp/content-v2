@@ -3,8 +3,8 @@ title: Blog
 layout: PageLayout
 sections:
   - type: FeaturedPostsSection
-  	title: Blog
-  	subtitle: What we like to write about
+    title: Blog
+    subtitle: What we like to write about
     variant: variant-a
     colors: colors-a
     width: wide
