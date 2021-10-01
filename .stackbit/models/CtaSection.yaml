@@ -11,6 +11,9 @@ fields:
     name: variant
     label: Arrangement
     controlType: thumbnails
+    colors:
+      - label: color-1
+
     options:
       - label: CTA with buttons at the bottom
         value: variant-a
@@ -18,7 +21,7 @@ fields:
       - label: CTA with buttons on the right
         value: variant-b
         thumbnail: './images/CtaSection/CTA Section With Buttons on the Right.png'
-    default: variant-a
+    default: variant-b
   - type: model
     name: badge
     label: Badge
@@ -50,7 +53,4 @@ fields:
     label: Background image
     models:
       - ImageBlock
-    default: 
-      - type: ImageBlock
-        url: /images/post-2.jpeg
-        altText: Post Image
+  
