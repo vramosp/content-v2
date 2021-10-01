@@ -31,7 +31,6 @@ fields:
   - type: markdown
     name: text
     label: Text
-    default: Fill out the form below and we will get in touch within 1 business day.
   - type: model
     name: form
     label: Form
@@ -70,19 +69,19 @@ fields:
     label: Feature
     models:
       - ImageBlock
-      - VideoBlock
-    default:
-      - type: ImageBlock
-        url: /images/contact.png
-        altText: Contact us image
+      - VideoBlock 
 default:
   variant: variant-b
   colors: colors-h
   width: wide
   height: tall
   textAlign: left
-  title: Join our club
+  title: Contact us
+  text: Fill out the form below and we will get in touch within 1 business day.
   bottomGap: none
   topGap: none
+  feature:
+    - type: ImageBlock
+      url: /images/contact.png
 
    
