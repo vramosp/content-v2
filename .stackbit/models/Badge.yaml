@@ -11,4 +11,4 @@ fields:
     name: label
     label: Label
     description: The text in the badge
-    default: Beta
+    default: ''
