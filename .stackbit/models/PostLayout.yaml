@@ -6,21 +6,17 @@ fields:
   - type: string
     name: title
     label: Title
-    default: Post Title 1
   - type: date
     name: date
     label: Date
   - type: string
     name: excerpt
     label: Excerpt
-    default: Praesent dapibus justo non efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor pretium id. Sed imperdiet mattis eleifend.
   - type: model
     name: thumbImage
     label: Thumbnail image
     models: [ImageBlock]
-    default:
-      url: /images/post-1.jpeg
-      altText: Image post 1
+  - type: list
     name: topSections
     label: Top sections
     items:
@@ -34,3 +30,6 @@ fields:
       type: model
       groups:
         - sectionComponent
+default:
+  title: Post Title 1
+  excerpt: This is the first paragraph of your blog post. 
