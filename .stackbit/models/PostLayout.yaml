@@ -21,10 +21,6 @@ fields:
     default:
       url: /images/post-1.jpeg
       altText: Image post 1
-  - type: markdown
-    name: content
-    label: Content
-    default: "this is a blog post"
     name: topSections
     label: Top sections
     items:
