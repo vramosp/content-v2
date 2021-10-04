@@ -19,7 +19,7 @@ fields:
     label: Thumbnail image
     models: [ImageBlock]
     default:
-      url: /images/post-one.jpeg
+      url: /images/post-1.jpeg
       altText: Image post 1
   - type: list
     name: topSections
