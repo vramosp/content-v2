@@ -16,7 +16,7 @@ fields:
         value: variant-a
         thumbnail: './images/TestimonialsSection/Quote Above Image.png'
       - label: Testimonial with author image on the left
-        value: variant-b
+        value: variant-a
         thumbnail: './images/TestimonialsSection/Quote to the Right of the Image.png'
     default: variant-a
   - type: model

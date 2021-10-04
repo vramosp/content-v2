@@ -15,17 +15,17 @@ fields:
   - type: string
     name: title
     label: Author title
+    default: Head chef at Parks
   - type: model
     name: image
-    default: Head chef at Parks
+    default: 
+      url: /images/isabelle-parks.jpg
+      altText: Isabelle Parks
     label: Author image
     models: [ImageBlock]
   - type: model
     name: logo
     label: Company logo
     models: [ImageBlock]
-    default:
-      url: /images/isabelle-parks.jpg
-      altText: Isabelle Parks
   - type: string
     name: elementId
