@@ -77,12 +77,12 @@ default:
     actions:
       - type: Button
         label: Get Started
-        url: 'https://www.stackbit.com/'
+        url: '/'
         style: primary
         elementId: hero-main-button
       - type: Button
         label: Learn More
-        url: 'https://www.stackbit.com/'
+        url: '/'
         style: secondary
     feature:
       type: ImageBlock
